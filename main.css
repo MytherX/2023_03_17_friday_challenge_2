@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-content{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    width:1280px;
+    height:720px;
+    margin-left:calc(50% - 640px);
+}
+.column{
+    width:263px;
+    height:502px;
+}
+.image-container{
+    position: relative;
+}
+.number{
+    margin:0;
+    width:64px;
+    height: 64px;
+    background-color: white;
+    border-radius:50%;
+    border:#51C3CD 5px solid;
+    position:absolute;
+    top:-32px;
+    left:1px;
+    display:flex; /*numeriuka iscentravau */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+.icon{
+    width:230px;
+    height: 230px;
+    margin-top:32px;
+    margin-left:33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    border-color:#51C3CD;
+    color:#51C3CD;
+}
+.two {
+    border-color:#3A6EC1;
+    color:#3A6EC1;
+}
+.three{
+    border-color:#F34D33;
+    color:#F34D33;
+}
+.four{
+    border-color:#919191;
+    color:#919191;
+}
+.rocket-home{
+     background-color: #51C3CD; 
+}
+.head-home{
+   background-color:#3A6EC1;
+}
+.people-home{
+    background-color: #F34D33;
+}
+.arrow-home{
+    background-color: #919191;
+}
+.head{
+    width: 70%;
+}
+.rocket{
+     width:80%;
+}
+.people{
+    width:60%;
+}
+.arrow{
+    width:80%;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:bold;
+}

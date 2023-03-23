@@ -1,0 +1,14 @@
+{
+  "name": "2023_03_17_friday_challenge_2",
+  "version": "1.0.0",
+  "description": "Friday Challenge 2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=2222 --host=localhost"
+  },
+  "author": "Arnoldas (https://github.com/mytherx)",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
